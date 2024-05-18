@@ -1,0 +1,11 @@
+__pycache__
+build
+venv
+
+.idea
+.vscode
+*.egg-info
+
+*.freq.tsv
+*.model
+*.vocab
