@@ -5,7 +5,7 @@ from tokenizer.tokenizer import Tokenizer
 def get_args():
     parser = argparse.ArgumentParser(description="Inference using a Tokenizer model.")
     parser.add_argument(
-        "--prefix", type=str, default="data/botchan", help="Model prefix."
+        "--prefix", type=str, default="out/botchan", help="Model prefix."
     )
     parser.add_argument("--lower", type=bool, default=True, help="Lowercase the input.")
     parser.add_argument("input", type=str)
