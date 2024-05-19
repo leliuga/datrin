@@ -4,4 +4,4 @@ flax>=0.8
 optax>=0.1
 sentencepiece>=0.2
 safetensors>=0.4
-tqdm=>4.66
+tqdm>=4.66
